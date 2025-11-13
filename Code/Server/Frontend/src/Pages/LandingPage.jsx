@@ -251,9 +251,7 @@ const LandingPage = () => {
                             <div>
                                 <p className={`text-xs sm:text-sm ${textSecondary} font-medium uppercase tracking-wider`}>High Priority</p>
                                 <p className={`text-xl sm:text-2xl font-bold ${textPrimary} mt-1 font-mono`}>{stats.high}</p>
-                            </div>
-                            <div className={`${darkMode ? 'bg-neutral-800' : 'bg-neutral-100'} p-2 sm:p-3`}> 
-                            </div>
+                            </div> 
                         </div>
                     </div>
 
@@ -262,9 +260,7 @@ const LandingPage = () => {
                             <div>
                                 <p className={`text-xs sm:text-sm ${textSecondary} font-medium uppercase tracking-wider`}>Medium</p>
                                 <p className={`text-xl sm:text-2xl font-bold ${textPrimary} mt-1 font-mono`}>{stats.medium}</p>
-                            </div>
-                            <div className={`${darkMode ? 'bg-neutral-800' : 'bg-neutral-100'} p-2 sm:p-3`}> 
-                            </div>
+                            </div> 
                         </div>
                     </div>
 
@@ -273,9 +269,7 @@ const LandingPage = () => {
                             <div>
                                 <p className={`text-xs sm:text-sm ${textSecondary} font-medium uppercase tracking-wider`}>Low Priority</p>
                                 <p className={`text-xl sm:text-2xl font-bold ${textPrimary} mt-1 font-mono`}>{stats.low}</p>
-                            </div>
-                            <div className={`${darkMode ? 'bg-neutral-800' : 'bg-neutral-100'} p-2 sm:p-3`}> 
-                            </div>
+                            </div> 
                         </div>
                     </div>
 
@@ -284,9 +278,7 @@ const LandingPage = () => {
                             <div>
                                 <p className={`text-xs sm:text-sm ${textSecondary} font-medium uppercase tracking-wider`}>GPS Tracked</p>
                                 <p className={`text-xl sm:text-2xl font-bold ${textPrimary} mt-1 font-mono`}>{stats.withGPS}</p>
-                            </div>
-                            <div className={`${darkMode ? 'bg-neutral-800' : 'bg-neutral-100'} p-2 sm:p-3`}> 
-                            </div>
+                            </div> 
                         </div>
                     </div>
                 </div>
