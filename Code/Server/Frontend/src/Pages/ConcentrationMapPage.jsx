@@ -257,34 +257,33 @@ const ConcentrationMapPage = () => {
           <StatCard 
             title="Active Points" 
             value={stats.total} 
-            icon={<MapPin className="w-5 h-5" />} 
+             
             dark={darkMode} 
           />
           <StatCard 
             title="High" 
             value={stats.high} 
-            icon={<AlertTriangle className="w-5 h-5" />} 
+             
             dark={darkMode} 
             urgency="HIGH"
           />
           <StatCard 
             title="Medium" 
             value={stats.medium} 
-            icon={<Info className="w-5 h-5" />} 
+           
             dark={darkMode} 
             urgency="MEDIUM"
           />
           <StatCard 
             title="Low" 
             value={stats.low} 
-            icon={<CheckCircle className="w-5 h-5" />} 
+           
             dark={darkMode} 
             urgency="LOW"
           />
           <StatCard 
             title="Live" 
             value={stats.live} 
-            icon={<Radio className="w-5 h-5" />} 
             dark={darkMode} 
             live 
           />
@@ -395,17 +394,7 @@ const StatCard = ({ title, value, icon, dark, urgency, live }) => {
           <p className={`text-xs sm:text-sm ${textSecondary} font-medium uppercase tracking-wider`}>{title}</p>
           <p className={`text-xl sm:text-2xl font-bold ${dark ? 'text-white' : 'text-black'} mt-1 font-mono`}>{value}</p>
         </div>
-        {live ? (
-          <div className="w-3 h-3 bg-neutral-500 rounded-full animate-pulse"></div>
-        ) : urgency ? (
-          <div className={`p-2 ${getUrgencyStyles(urgency)}`}>
-            {icon}
-          </div>
-        ) : (
-          <div className={`p-2 ${dark ? 'bg-neutral-800' : 'bg-neutral-100'}`}>
-            {icon}
-          </div>
-        )}
+         
       </div>
     </div>
   );

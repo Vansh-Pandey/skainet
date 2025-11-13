@@ -252,8 +252,7 @@ const LandingPage = () => {
                                 <p className={`text-xs sm:text-sm ${textSecondary} font-medium uppercase tracking-wider`}>High Priority</p>
                                 <p className={`text-xl sm:text-2xl font-bold ${textPrimary} mt-1 font-mono`}>{stats.high}</p>
                             </div>
-                            <div className={`${darkMode ? 'bg-neutral-800' : 'bg-neutral-100'} p-2 sm:p-3`}>
-                                <AlertTriangle className={`w-5 h-5 sm:w-6 sm:h-6 ${textPrimary}`} />
+                            <div className={`${darkMode ? 'bg-neutral-800' : 'bg-neutral-100'} p-2 sm:p-3`}> 
                             </div>
                         </div>
                     </div>
@@ -264,8 +263,7 @@ const LandingPage = () => {
                                 <p className={`text-xs sm:text-sm ${textSecondary} font-medium uppercase tracking-wider`}>Medium</p>
                                 <p className={`text-xl sm:text-2xl font-bold ${textPrimary} mt-1 font-mono`}>{stats.medium}</p>
                             </div>
-                            <div className={`${darkMode ? 'bg-neutral-800' : 'bg-neutral-100'} p-2 sm:p-3`}>
-                                <Info className={`w-5 h-5 sm:w-6 sm:h-6 ${textPrimary}`} />
+                            <div className={`${darkMode ? 'bg-neutral-800' : 'bg-neutral-100'} p-2 sm:p-3`}> 
                             </div>
                         </div>
                     </div>
@@ -276,8 +274,7 @@ const LandingPage = () => {
                                 <p className={`text-xs sm:text-sm ${textSecondary} font-medium uppercase tracking-wider`}>Low Priority</p>
                                 <p className={`text-xl sm:text-2xl font-bold ${textPrimary} mt-1 font-mono`}>{stats.low}</p>
                             </div>
-                            <div className={`${darkMode ? 'bg-neutral-800' : 'bg-neutral-100'} p-2 sm:p-3`}>
-                                <CheckCircle className={`w-5 h-5 sm:w-6 sm:h-6 ${textPrimary}`} />
+                            <div className={`${darkMode ? 'bg-neutral-800' : 'bg-neutral-100'} p-2 sm:p-3`}> 
                             </div>
                         </div>
                     </div>
@@ -288,8 +285,7 @@ const LandingPage = () => {
                                 <p className={`text-xs sm:text-sm ${textSecondary} font-medium uppercase tracking-wider`}>GPS Tracked</p>
                                 <p className={`text-xl sm:text-2xl font-bold ${textPrimary} mt-1 font-mono`}>{stats.withGPS}</p>
                             </div>
-                            <div className={`${darkMode ? 'bg-neutral-800' : 'bg-neutral-100'} p-2 sm:p-3`}>
-                                <Navigation className={`w-5 h-5 sm:w-6 sm:h-6 ${textPrimary}`} />
+                            <div className={`${darkMode ? 'bg-neutral-800' : 'bg-neutral-100'} p-2 sm:p-3`}> 
                             </div>
                         </div>
                     </div>
@@ -393,7 +389,7 @@ const LandingPage = () => {
                 {isFetchingMessages && messages.length === 0 ? (
                     <div className={`${cardBg} border p-16 flex flex-col items-center justify-center transition-colors duration-200`}>
                         <div className="relative">
-                            <div className={`w-16 h-16 border-4 ${darkMode ? 'border-neutral-800 border-t-white' : 'border-neutral-200 border-t-black'} rounded-full animate-spin`}></div>
+                            <div className={`w-16 h-16 bo   rder-4 ${darkMode ? 'border-neutral-800 border-t-white' : 'border-neutral-200 border-t-black'} rounded-full animate-spin`}></div>
                         </div>
                         <p className={`${textSecondary} font-medium mt-4 uppercase tracking-wide`}>Connecting to network...</p>
                     </div>
